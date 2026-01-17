@@ -1,0 +1,2996 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ABCDverse Digital</title>
+    <meta name="robots" content="max-image-preview:large" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <script>
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/dev.yotisindia.in\/koinvent1\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(
+                e,
+                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+              )
+                ? !1
+                : !n(
+                    e,
+                    "\ud83c\uddfa\ud83c\uddf3",
+                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                  ) &&
+                    !n(
+                      e,
+                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                    );
+            case "emoji":
+              return !n(
+                e,
+                "\ud83d\udc26\u200d\u2b1b",
+                "\ud83d\udc26\u200b\u2b1b"
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+    </script>
+    <link
+      rel="stylesheet"
+      id="bdt-uikit-css"
+      href="assets/css/bdt-uikit673e.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ep-helper-css"
+      href="assets/css/ep-helper6f89.css"
+      media="all"
+    />
+    <style id="wp-emoji-styles-inline-css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <style id="classic-theme-styles-inline-css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css">
+      :root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .is-layout-flex > :is(*, div) {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      .is-layout-grid > :is(*, div) {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :root :where(.wp-block-pullquote) {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="elementor-frontend-css"
+      href="assets/css/frontend-lite.mince8e.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-74-css"
+      href="assets/css/post-74feab.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper-css"
+      href="assets/css/swiper.min94a4.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-67-css"
+      href="assets/css/post-67fccd.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="uicore_global-css"
+      href="assets/css/uicore-global2148.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="google-fonts-1-css"
+      href="https://fonts.googleapis.com/css?family=Inter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPlus+Jakarta+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.6.2"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-shared-0-css"
+      href="assets/fonts/themify-icons8a54.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-uicore-icons-css"
+      href="assets/fonts/themify-icons8a54.css"
+      media="all"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <script src="assets/js/jquery.minf43b.js" id="jquery-core-js"></script>
+    <script
+      src="assets/js/jquery-migrate.min5589.js"
+      id="jquery-migrate-js"
+    ></script>
+    <link rel="https://api.w.org/" href="wp-json/index.html" />
+    <link
+      rel="alternate"
+      title="JSON"
+      type="application/json"
+      href="wp-json/wp/v2/pages/67.json"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="xmlrpc0db0.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.6.2" />
+    <link rel="canonical" href="index.html" />
+    <link rel="shortlink" href="index.html" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <link rel="shortcut icon" href="assets/images/logo1.png" />
+    <link rel="icon" href="assets/images/logo1.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/images/logo1.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/images/logo1.png"
+    />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/logo1.png" />
+    <link rel="apple-touch-icon" href="assets/images/logo1.png" />
+    <link rel="icon" href="assets/images/cropped-fav-32x32.jpg" sizes="32x32" />
+    <link
+      rel="icon"
+      href="assets/images/cropped-fav-192x192.jpg"
+      sizes="192x192"
+    />
+    <link rel="apple-touch-icon" href="assets/images/cropped-fav-180x180.jpg" />
+    <meta name="msapplication-TileImage" content="assets/images/logo1.jpg" />
+    <style id="wp-custom-css">
+      .uicore-post-footer.uicore-body {
+        display: none;
+      }
+
+      @media only screen and (min-width: 1024px) {
+        .uicore-menu li.onlyformobile a span {
+          display: none !important;
+          color: blue !important;
+        }
+        .uicore.uicore-extra {
+          border-top: 0px !important;
+        }
+      }
+      .uicore.uicore-extra {
+        border-top: 3px solid #11acea;
+      }
+      .uicore-menu li.onlyformobile a span {
+        color: #1c56a7 !important;
+      }
+
+      #knowmore0 a.bdt-ep-advanced-icon-box-readmore.bdt-display-inline-block {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #3b3f42 !important;
+      }
+      #knowmore1 a.bdt-ep-advanced-icon-box-readmore.bdt-display-inline-block {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #3b3f42 !important;
+      }
+      #knowmore2 a.bdt-ep-advanced-icon-box-readmore.bdt-display-inline-block {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #3b3f42 !important;
+      }
+    </style>
+  </head>
+
+  <body
+    class="home page-template-default page page-id-67 wp-embed-responsive ui-a-dsmm-slide elementor-default elementor-kit-7 elementor-page elementor-page-67"
+  >
+    <!-- Custom HTML - Page Options --><!-- 1.1 uicore_before_body_content -->
+    <div class="uicore-body-content">
+      <!-- 1.2 uicore_before_page_content -->
+      <div id="uicore-page">
+        <div
+          data-uils="header"
+          data-uils-title="Header"
+          id="wrapper-navbar"
+          itemscope
+          itemtype="#"
+          class="uicore uicore-navbar elementor-section elementor-section-boxed uicore-h-classic uicore-sticky ui-smart-sticky uicore-transparent"
+        >
+          <div class="uicore-header-wrapper">
+            <nav class="uicore elementor-container">
+              <div
+                class="uicore-branding"
+                data-uils="header-branding"
+                data-uils-title="Site Logo"
+              >
+                <a href="#home" rel="home">
+                  <img
+                    class="uicore uicore-logo uicore-main"
+                    src="./assets/images/logo1.png"
+                    alt="Koinvent"
+                  />
+                  <img
+                    class="uicore uicore-logo uicore-mobile-main"
+                    src="./assets/images/logo1.png"
+                    alt="Koinvent"
+                  />
+                  <img
+                    class="uicore uicore-logo uicore-mobile-second"
+                    src="./assets/images/logo1.png"
+                    alt="Koinvent"
+                  />
+                </a>
+              </div>
+              <div class="uicore-nav-menu">
+                <div class="uicore-menu-container uicore-nav">
+                  <ul
+                    data-uils="header-menu"
+                    data-uils-title="Navigation Menu"
+                    class="uicore-menu"
+                  >
+                    <li class="menu-item">
+                      <a href="#about-us">
+                        <span class="ui-menu-item-wrapper">About Us</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#services">
+                        <span class="ui-menu-item-wrapper">Services</span>
+                      </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#contact">
+                        <span class="ui-menu-item-wrapper">Contact</span>
+                      </a>
+                    </li>
+                    <!-- <li class="onlyformobile menu-item">
+                      <a href="#contact">
+                        <span class="ui-menu-item-wrapper">Contact Us</span>
+                      </a>
+                    </li> -->
+                  </ul>
+                </div>
+                <div
+                  class="uicore uicore-extra"
+                  data-uils="header_extra"
+                  data-uils-title="Header Extras"
+                >
+                  <!-- <div class="uicore-cta-wrapper">
+                    <a href="#contact" class="uicore-btn">
+                      <span class="elementor-button-text">Contact Us</span>
+                    </a>
+                  </div> -->
+                </div>
+              </div>
+              <div class="uicore-mobile-head-right">
+                <button
+                  type="button"
+                  class="uicore-toggle uicore-ham"
+                  aria-label="mobile-menu"
+                >
+                  <span class="bars">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                  </span>
+                </button>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <!-- #wrapper-navbar end -->
+        <!-- 1.3 uicore_page -->
+        <div id="content" class="uicore-content">
+          <script id="uicore-page-transition">
+            window.onload = window.onpageshow = function () {};
+          </script>
+          <!-- 1.4 uicore_before_content -->
+          <div id="primary" class="content-area">
+            <article
+              id="post-67"
+              class="post-67 page type-page status-publish hentry"
+            >
+              <main class="entry-content">
+                <div
+                  data-elementor-type="wp-page"
+                  data-elementor-id="67"
+                  class="elementor elementor-67"
+                >
+                  <section id="about-us">
+                    <div
+                      class="elementor-section elementor-top-section elementor-element elementor-element-1acd6ca elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                      data-id="1acd6ca"
+                      data-element_type="section"
+                    >
+                      <div
+                        class="elementor-container elementor-column-gap-default"
+                      >
+                        <div
+                          class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bf01834"
+                          data-id="bf01834"
+                          data-element_type="column"
+                        >
+                          <div
+                            class="elementor-widget-wrap elementor-element-populated"
+                          >
+                            <div
+                              class="elementor-element elementor-element-4f99131 elementor-widget-tablet__width-initial ui-e-a-animate elementor-invisible elementor-widget elementor-widget-highlighted-text"
+                              data-id="4f99131"
+                              data-element_type="widget"
+                              data-settings='{"_animation":"fadeInDown"}'
+                              data-widget_type="highlighted-text.default"
+                            >
+                              <style>
+                                .small-font {
+                                  font-size: 14px;
+                                  line-height: 1.5;
+                                }
+
+                                .reduced-font {
+                                  font-size: 400%;
+                                }
+
+                                .highlighted-font {
+                                  font-size: 250%;
+                                }
+                              </style>
+
+                              <div class="elementor-widget-container">
+                                <h1
+                                  data-delay="900"
+                                  class="ui-e--highlighted-text small-font"
+                                >
+                                  <span class="ui-e-headline-text reduced-font">
+                                    ABCDverse
+                                  </span>
+                                  <span
+                                    class="ui-e-headline-text ui-e-headline-stroke1"
+                                  >
+                                    <span class="whitespace"></span>
+                                    <span>
+                                      <span class="uicore-svg-wrapper">
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          viewBox="0 0 500 150"
+                                          preserveAspectRatio="none"
+                                        >
+                                          <path
+                                            d="M15.2,133.3L15.2,133.3c121.9-7.6,244-9.9,366.1-6.8c34.6,0.9,69.1,2.3,103.7,4"
+                                          />
+                                        </svg>
+                                      </span>
+                                    </span>
+                                    <span class="whitespace"></span>
+                                  </span>
+                                  <span
+                                    class="ui-e-headline-text ui-e-headline-stroke1"
+                                  >
+                                    <span class="whitespace"></span>
+                                    <span>
+                                      <span
+                                        class="ui-e-headline-text ui-e-headline-highlighted highlighted-font"
+                                      >
+                                        Digital
+                                      </span>
+                                      <span class="uicore-svg-wrapper">
+                                        <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          viewBox="0 0 500 150"
+                                          preserveAspectRatio="none"
+                                        >
+                                          <path
+                                            d="M15.2,133.3L15.2,133.3c121.9-7.6,244-9.9,366.1-6.8c34.6,0.9,69.1,2.3,103.7,4"
+                                          />
+                                        </svg>
+                                      </span>
+                                    </span>
+                                    <span class="whitespace"></span>
+                                  </span>
+                                </h1>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-71e7c31"
+                          data-id="71e7c31"
+                          data-element_type="column"
+                        >
+                          <div
+                            class="elementor-widget-wrap elementor-element-populated"
+                          >
+                            <div
+                              class="elementor-element elementor-element-446278f elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-text-editor"
+                              data-id="446278f"
+                              data-element_type="widget"
+                              data-settings='{"_animation":"fadeInDown","_animation_delay":200}'
+                              data-widget_type="text-editor.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <style>
+                                  /*! elementor - v3.20.0 - 26-03-2024 */
+                                  .elementor-widget-text-editor.elementor-drop-cap-view-stacked
+                                    .elementor-drop-cap {
+                                    background-color: #69727d;
+                                    color: #fff;
+                                  }
+                                  .elementor-widget-text-editor.elementor-drop-cap-view-framed
+                                    .elementor-drop-cap {
+                                    color: #69727d;
+                                    border: 3px solid;
+                                    background-color: transparent;
+                                  }
+                                  .elementor-widget-text-editor:not(
+                                      .elementor-drop-cap-view-default
+                                    )
+                                    .elementor-drop-cap {
+                                    margin-top: 8px;
+                                  }
+                                  .elementor-widget-text-editor:not(
+                                      .elementor-drop-cap-view-default
+                                    )
+                                    .elementor-drop-cap-letter {
+                                    width: 1em;
+                                    height: 1em;
+                                  }
+                                  .elementor-widget-text-editor
+                                    .elementor-drop-cap {
+                                    float: left;
+                                    text-align: center;
+                                    line-height: 1;
+                                    font-size: 50px;
+                                  }
+                                  .elementor-widget-text-editor
+                                    .elementor-drop-cap-letter {
+                                    display: inline-block;
+                                  }
+                                </style>
+                                <p>
+                                  ABCDverse committed to take new planes of
+                                  existence and new experiences and beyond the
+                                  universe of Artificial Intelligence, Block
+                                  Chain, Cloud and Data Science.
+                                </p>
+                                <p>
+                                  Our Products are for BFSI and Government
+                                  Business for automating their manual process
+                                  and to have effective and error free results.
+                                </p>
+                                <p>
+                                  Reduce Man Efforts, Manual Interventions and
+                                  Quick Decision makings information are the USP
+                                  of our products.
+                                </p>
+                                <p>
+                                  From specialist software solutions provider to
+                                  digital transformation partner. We have grown
+                                  into a full-service IT solutions provider by
+                                  providing technology services to companies in
+                                  the industry verticals of Fintech, BFSI &
+                                  others. We help our clients to automate their
+                                  business processes for effective TAT and excel
+                                  their business decisions.
+                                </p>
+                                <p>
+                                  We started out small, just like everyone else
+                                  and have been led by our ambitious founders
+                                  throughout this incredible journey.
+                                </p>
+                              </div>
+                            </div>
+                            <div
+                              class="elementor-element elementor-element-3a23aa4 elementor-invisible elementor-widget elementor-widget-button"
+                              data-id="3a23aa4"
+                              data-element_type="widget"
+                              data-settings='{"_animation":"fadeInDown","_animation_delay":0}'
+                              data-widget_type="button.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                  <a
+                                    class="elementor-button elementor-button-link elementor-size-sm"
+                                    href="#"
+                                  >
+                                    <span
+                                      class="elementor-button-content-wrapper"
+                                    >
+                                      <span class="elementor-button-text"
+                                        >Get In Touch</span
+                                      >
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <style>
+                    /*! elementor - v3.20.0 - 26-03-2024 */
+                    .elementor-heading-title {
+                      padding: 0;
+                      margin: 0;
+                      line-height: 1;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title[class*="elementor-size-"]
+                      > a {
+                      color: inherit;
+                      font-size: inherit;
+                      line-height: inherit;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title.elementor-size-small {
+                      font-size: 15px;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title.elementor-size-medium {
+                      font-size: 19px;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title.elementor-size-large {
+                      font-size: 29px;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title.elementor-size-xl {
+                      font-size: 39px;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title.elementor-size-xxl {
+                      font-size: 59px;
+                    }
+                  </style>
+                  <div
+                    class="elementor-section elementor-top-section elementor-element elementor-element-22c429c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="22c429c"
+                    data-element_type="section"
+                  >
+                    <div
+                      class="elementor-container elementor-column-gap-default"
+                    >
+                      <div
+                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f06308f"
+                        data-id="f06308f"
+                        data-element_type="column"
+                      >
+                        <div
+                          class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <section id="services">
+                            <div
+                              class="elementor-element elementor-element-9cf3d50 ui-split-animate ui-splitby-chars elementor-widget elementor-widget-heading"
+                              data-id="9cf3d50"
+                              data-element_type="widget"
+                              data-settings='{"ui_animate_split":"ui-split-animate","ui_animate_split_style":"fadeIn","ui_animate_split_by":"chars"}'
+                              data-widget_type="heading.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <h2
+                                  class="elementor-heading-title elementor-size-default"
+                                >
+                                  Services
+                                </h2>
+                              </div>
+                            </div>
+                            <div
+                              class="elementor-element elementor-element-ded5441 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor"
+                              data-id="ded5441"
+                              data-element_type="widget"
+                              data-settings='{"_animation":"fadeInUp","_animation_delay":400}'
+                              data-widget_type="text-editor.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <p>
+                                  ABCDverse is Taking us to new planes of
+                                  existence and new experiences and beyond the
+                                  universe of Artificial Intelligence, Block
+                                  Chain, Cloud and Data Science.
+                                </p>
+                              </div>
+                            </div>
+                          </section>
+
+                          <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-36e5055 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="36e5055"
+                            data-element_type="section"
+                            id="CustomerCentricity"
+                            data-settings='{"background_background":"classic"}'
+                          >
+                            <div
+                              class="elementor-container elementor-column-gap-default"
+                            >
+                              <div
+                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b570894 elementor-invisible"
+                                data-id="b570894"
+                                data-element_type="column"
+                                data-settings='{"animation":"fadeInLeft"}'
+                              >
+                                <div
+                                  class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                  <div
+                                    class="elementor-element elementor-element-c923b42 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image"
+                                    data-id="c923b42"
+                                    data-element_type="widget"
+                                    data-settings='{"_position":"absolute"}'
+                                    data-widget_type="image.default"
+                                  >
+                                    <div
+                                      class="elementor-widget-container"
+                                    ></div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-1e5597f elementor-widget elementor-widget-image"
+                                    data-id="1e5597f"
+                                    data-element_type="widget"
+                                    data-widget_type="image.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <img
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="1000"
+                                        height="667"
+                                        src="assets/images/ai.jpg"
+                                        class="attachment-full size-full wp-image-358"
+                                        alt=""
+                                        srcset="
+                                          assets/images/ai.jpg 1000w,
+                                          assets/images/ai.jpg  300w,
+                                          assets/images/ai.jpg  768w,
+                                          assets/images/ai.jpg  650w
+                                        "
+                                        sizes="(max-width: 1000px) 100vw, 1000px"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3520d9c"
+                                data-id="3520d9c"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                  <div
+                                    class="elementor-element elementor-element-ee62e16 elementor-invisible elementor-widget elementor-widget-heading"
+                                    data-id="ee62e16"
+                                    data-element_type="widget"
+                                    data-settings='{"_animation":"fadeInDown"}'
+                                    data-widget_type="heading.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <h2
+                                        class="elementor-heading-title elementor-size-default"
+                                      >
+                                        Artificial Intelligence
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-532cff1 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor"
+                                    data-id="532cff1"
+                                    data-element_type="widget"
+                                    data-settings='{"_animation":"fadeInDown"}'
+                                    data-widget_type="text-editor.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      Today's interconnected world generates
+                                      vast swathes of data each second. When
+                                      processed and analyzed with AI and Machine
+                                      Learning solutions, this data offers
+                                      insights and trends that it would be
+                                      impossible to observe manually –
+                                      identifying and acting on these is vital
+                                      to keep pace with today’s data-driven
+                                      environment.
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-f0b045f elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                    data-id="f0b045f"
+                                    data-element_type="widget"
+                                    data-widget_type="icon-list.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <link
+                                        rel="stylesheet"
+                                        href="assets/css/widget-icon-list.min.css"
+                                      />
+                                      <ul class="elementor-icon-list-items">
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >We understand the immense potential
+                                            of Generative AI and possess the
+                                            expertise to harness its power for
+                                            your business advantage.
+                                          </span>
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Our team of experts possesses the
+                                            technical knowledge and creative
+                                            vision to help you integrate
+                                            Generative AI into your workflow and
+                                            unlock its transformative potential.
+                                            With a commitment to staying ahead
+                                            of the curve, we’re ready to help
+                                            you explore the possibilities of
+                                            Generative AI and craft a customized
+                                            solution that propels your business
+                                            into the future.</span
+                                          >
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-0480092 ui-float-widget elementor-widget elementor-widget-button"
+                                    data-id="0480092"
+                                    data-element_type="widget"
+                                    data-widget_type="button.default"
+                                  >
+                                    <div
+                                      class="elementor-widget-container"
+                                    ></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                          <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-891a176 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="891a176"
+                            data-element_type="section"
+                            id="GenerativeAIforBusiness"
+                          >
+                            <div
+                              class="elementor-container elementor-column-gap-default"
+                            >
+                              <div
+                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ab7ae26"
+                                data-id="ab7ae26"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                  <div
+                                    class="elementor-element elementor-element-45a78f8 elementor-invisible elementor-widget elementor-widget-heading"
+                                    data-id="45a78f8"
+                                    data-element_type="widget"
+                                    data-settings='{"_animation":"fadeInDown"}'
+                                    data-widget_type="heading.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <h2
+                                        class="elementor-heading-title elementor-size-default"
+                                      >
+                                        Block Chain
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-5286177 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor"
+                                    data-id="5286177"
+                                    data-element_type="widget"
+                                    data-settings='{"_animation":"fadeInDown"}'
+                                    data-widget_type="text-editor.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      Our blockchain development services are
+                                      designed to help businesses of all sizes
+                                      harness the power of decentralized,
+                                      secure, and transparent solutions.
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-2d89867 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                    data-id="2d89867"
+                                    data-element_type="widget"
+                                    data-widget_type="icon-list.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <ul class="elementor-icon-list-items">
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Our rich industry experience and
+                                            distributed ledger expertise paired
+                                            with robust integration competence
+                                            helps in providing end-to-end
+                                            blockchain application development
+                                            services where we conceive, design
+                                            and test real-world blockchain
+                                            applications, while addressing
+                                            important aspects such as
+                                            interoperability, scalability and
+                                            business process re-alignment across
+                                            network participants.</span
+                                          >
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Blockchain technology, which offers
+                                            a distributed ledger system that is
+                                            transparent, safe, and secure, is
+                                            completely changing businesses. Our
+                                            network of top blockchain
+                                            development businesses can assist
+                                            you in selecting the best kind of
+                                            blockchain for your particular
+                                            requirements, whether you're looking
+                                            for a consortium blockchain for
+                                            joint ventures, a private blockchain
+                                            for internal usage, or a public
+                                            blockchain.</span
+                                          >
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Our services for blockchain
+                                            development cover every stage of the
+                                            process, from planning and designing
+                                            to implementing and maintaining the
+                                            system. Our blockchain developers
+                                            gives you access to a multitude of
+                                            expertise and experience. We have an
+                                            expert team that makes sure that
+                                            your project is built on a strong
+                                            foundation by keeping up with the
+                                            most recent developments in
+                                            blockchain technology.</span
+                                          >
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-02b426f ui-float-widget elementor-widget elementor-widget-button"
+                                    data-id="02b426f"
+                                    data-element_type="widget"
+                                    data-widget_type="button.default"
+                                  >
+                                    <div
+                                      class="elementor-widget-container"
+                                    ></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b06adb2 elementor-invisible"
+                                data-id="b06adb2"
+                                data-element_type="column"
+                                data-settings='{"animation":"fadeInRight"}'
+                              >
+                                <div
+                                  class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                  <div
+                                    class="elementor-element elementor-element-6bf4f0f elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image"
+                                    data-id="6bf4f0f"
+                                    data-element_type="widget"
+                                    data-settings='{"_position":"absolute"}'
+                                    data-widget_type="image.default"
+                                  ></div>
+                                  <div
+                                    class="elementor-element elementor-element-2c5b2a2 elementor-widget elementor-widget-image"
+                                    data-id="2c5b2a2"
+                                    data-element_type="widget"
+                                    data-widget_type="image.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <img
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="1000"
+                                        height="666"
+                                        src="assets/images/blockchain.jpg"
+                                        class="attachment-full size-full wp-image-359"
+                                        alt=""
+                                        srcset="
+                                          assets/images/blockchain.jpg 1000w,
+                                          assets/images/blockchain.jpg  300w,
+                                          assets/images/blockchain.jpg  768w,
+                                          assets/images/blockchain.jpg  650w
+                                        "
+                                        sizes="(max-width: 1000px) 100vw, 1000px"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                          <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-8a29255 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="8a29255"
+                            data-element_type="section"
+                            id="GrowthMindset"
+                            data-settings='{"background_background":"classic"}'
+                          >
+                            <div
+                              class="elementor-container elementor-column-gap-default"
+                            >
+                              <div
+                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-cdc96cb elementor-invisible"
+                                data-id="cdc96cb"
+                                data-element_type="column"
+                                data-settings='{"animation":"fadeInLeft"}'
+                              >
+                                <div
+                                  class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                  <div
+                                    class="elementor-element elementor-element-5cf907a elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image"
+                                    data-id="5cf907a"
+                                    data-element_type="widget"
+                                    data-settings='{"_position":"absolute"}'
+                                    data-widget_type="image.default"
+                                  ></div>
+                                  <div
+                                    class="elementor-element elementor-element-e86c244 elementor-widget elementor-widget-image"
+                                    data-id="e86c244"
+                                    data-element_type="widget"
+                                    data-widget_type="image.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <img
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="1000"
+                                        height="1000"
+                                        src="assets/images/cloud.jpg"
+                                        class="attachment-full size-full wp-image-360"
+                                        alt=""
+                                        srcset="
+                                          assets/images/cloud.jpg 1000w,
+                                          assets/images/cloud.jpg  300w,
+                                          assets/images/cloud.jpg  150w,
+                                          assets/images/cloud.jpg  768w,
+                                          assets/images/cloud.jpg  650w
+                                        "
+                                        sizes="(max-width: 1000px) 100vw, 1000px"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7bfe965"
+                                data-id="7bfe965"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                  <div
+                                    class="elementor-element elementor-element-b75cb64 elementor-invisible elementor-widget elementor-widget-heading"
+                                    data-id="b75cb64"
+                                    data-element_type="widget"
+                                    data-settings='{"_animation":"fadeInDown"}'
+                                    data-widget_type="heading.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <h2
+                                        class="elementor-heading-title elementor-size-default"
+                                      >
+                                        Cloud
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-02841f9 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor"
+                                    data-id="02841f9"
+                                    data-element_type="widget"
+                                    data-settings='{"_animation":"fadeInDown"}'
+                                    data-widget_type="text-editor.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      Achieve innovation with the right fit
+                                      cloud solutions.
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-cdd66af elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                    data-id="cdd66af"
+                                    data-element_type="widget"
+                                    data-widget_type="icon-list.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <ul class="elementor-icon-list-items">
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Cloud has emerged as an enabler of
+                                            transformation, but there are still
+                                            significant barriers to cloud
+                                            expansion and many enterprises are
+                                            struggling to prove transformation
+                                            value or to tie IT value to business
+                                            outcomes. We provide a 360-degree
+                                            approach to identifying and solving
+                                            challenges while driving
+                                            transformation forward.</span
+                                          >
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Optimize your cloud strategy with
+                                            Cloud Consulting.</span
+                                          >
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Modernize your enterprise with
+                                            Private Cloud Services.</span
+                                          >
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Choose the right cloud provider
+                                            with Public Cloud Services.</span
+                                          >
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Transform your IT operating model
+                                            with Modern Operations.</span
+                                          >
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Start your cloud adoption journey
+                                            with Cloud Migration Services.</span
+                                          >
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Maximize your IT infrastructure
+                                            with Managed Cloud Services.</span
+                                          >
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-c42ba21 ui-float-widget elementor-widget elementor-widget-button"
+                                    data-id="c42ba21"
+                                    data-element_type="widget"
+                                    data-widget_type="button.default"
+                                  >
+                                    <div
+                                      class="elementor-widget-container"
+                                    ></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                          <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-108e68d elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="108e68d"
+                            data-element_type="section"
+                            id="MentoringCoaching"
+                          >
+                            <div
+                              class="elementor-container elementor-column-gap-default"
+                            >
+                              <div
+                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-86bd6a1"
+                                data-id="86bd6a1"
+                                data-element_type="column"
+                              >
+                                <div
+                                  class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                  <div
+                                    class="elementor-element elementor-element-c7c85ca elementor-invisible elementor-widget elementor-widget-heading"
+                                    data-id="c7c85ca"
+                                    data-element_type="widget"
+                                    data-settings='{"_animation":"fadeInDown"}'
+                                    data-widget_type="heading.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <h2
+                                        class="elementor-heading-title elementor-size-default"
+                                      >
+                                        Data Science
+                                      </h2>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-5d7c563 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor"
+                                    data-id="5d7c563"
+                                    data-element_type="widget"
+                                    data-settings='{"_animation":"fadeInDown"}'
+                                    data-widget_type="text-editor.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      Bridging the Gap Between Data, Knowledge,
+                                      Information, and Action.
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-6e1a6de elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                    data-id="6e1a6de"
+                                    data-element_type="widget"
+                                    data-widget_type="icon-list.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <ul class="elementor-icon-list-items">
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >You’re always bombarded with
+                                            multiple data and data points around
+                                            you. Dashboards overflow, reports
+                                            pile up, and the pressure to make
+                                            informed decisions intensifies. Yet,
+                                            harnessing the true power of this
+                                            data often feels like navigating a
+                                            complex, confusing, and
+                                            frustratingly slow. Sound familiar?
+                                            You’re not alone. Many companies
+                                            struggle to identify the critical
+                                            signals buried under mountains of
+                                            metrics. We’re here to bridge that
+                                            gap. We help you derive measurable
+                                            and actionable value from your data,
+                                            differentiating yourself and
+                                            solidifying your business
+                                            position.</span
+                                          >
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >Building reliable AI/ML decisioning
+                                            systems needs algorithms to
+                                            understand specific business
+                                            contexts, train on the right data,
+                                            update themselves in real-time,
+                                            learn from prior experiences and any
+                                            humans in the loop. To enable this,
+                                            a collaboration of multiple
+                                            disciplines and cross-functional
+                                            capabilities is necessary.</span
+                                          >
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+                                          <span
+                                            class="elementor-icon-list-icon"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              class="e-font-icon-svg e-fas-check-circle"
+                                              viewBox="0 0 512 512"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                              <path
+                                                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                                              ></path>
+                                            </svg>
+                                          </span>
+                                          <span class="elementor-icon-list-text"
+                                            >We bring together these
+                                            capabilities to make AI a valuable
+                                            tool for decision making across
+                                            several functions. We build
+                                            solutions ranging from fully
+                                            autonomous real-time decisioning
+                                            systems to predictive intelligence
+                                            for augmenting human
+                                            decisions.</span
+                                          >
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-f6b0db8 ui-float-widget elementor-widget elementor-widget-button"
+                                    data-id="f6b0db8"
+                                    data-element_type="widget"
+                                    data-widget_type="button.default"
+                                  ></div>
+                                </div>
+                              </div>
+                              <div
+                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-87cab03 elementor-invisible"
+                                data-id="87cab03"
+                                data-element_type="column"
+                                data-settings='{"animation":"fadeInRight"}'
+                              >
+                                <div
+                                  class="elementor-widget-wrap elementor-element-populated"
+                                >
+                                  <div
+                                    class="elementor-element elementor-element-33ccfc8 elementor-widget elementor-widget-image"
+                                    data-id="33ccfc8"
+                                    data-element_type="widget"
+                                    data-widget_type="image.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <img
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="996"
+                                        height="996"
+                                        src="assets/images/data.jpg"
+                                        class="attachment-full size-full wp-image-50"
+                                        alt=""
+                                        srcset="
+                                          assets/images/data.jpg 996w,
+                                          assets/images/data.jpg 300w,
+                                          assets/images/data.jpg 150w,
+                                          assets/images/data.jpg 768w,
+                                          assets/images/data.jpg 650w
+                                        "
+                                        sizes="(max-width: 996px) 100vw, 996px"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="elementor-element elementor-element-b47cf1e elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image"
+                                    data-id="b47cf1e"
+                                    data-element_type="widget"
+                                    data-settings='{"_position":"absolute"}'
+                                    data-widget_type="image.default"
+                                  ></div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-8827074 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="8827074"
+                    data-element_type="section"
+                    data-settings='{"background_background":"classic"}'
+                  >
+                    <div class="elementor-background-overlay"></div>
+                    <div
+                      class="elementor-container elementor-column-gap-default"
+                    >
+                      <div
+                        class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a19aebd"
+                        data-id="a19aebd"
+                        data-element_type="column"
+                      >
+                        <div
+                          class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                            class="elementor-element elementor-element-cd447b7 ui-split-animate ui-e-a-animate ui-splitby-chars elementor-widget elementor-widget-highlighted-text"
+                            data-id="cd447b7"
+                            data-element_type="widget"
+                            data-settings='{"ui_animate_split":"ui-split-animate","ui_animate_split_style":"fadeIn","ui_animate_split_by":"chars"}'
+                            data-widget_type="highlighted-text.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <h1
+                                data-delay="1200"
+                                class="ui-e--highlighted-text"
+                              >
+                                <span class="ui-e-headline-text"
+                                  >Converting </span
+                                ><span
+                                  class="ui-e-headline-text ui-e-headline-stroke1"
+                                >
+                                  <span class="whitespace"> </span
+                                  ><span
+                                    ><span
+                                      class="ui-e-headline-text ui-e-headline-highlighted"
+                                      >problems</span
+                                    ><span class="uicore-svg-wrapper"
+                                      ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 500 150"
+                                        preserveAspectRatio="none"
+                                      >
+                                        <path
+                                          d="M15.2,133.3L15.2,133.3c121.9-7.6,244-9.9,366.1-6.8c34.6,0.9,69.1,2.3,103.7,4"
+                                        /></svg></span></span
+                                  ><span class="whitespace"> </span></span
+                                ><span class="ui-e-headline-text"> into </span
+                                ><span
+                                  class="ui-e-headline-text ui-e-headline-stroke1"
+                                >
+                                  <span class="whitespace"> </span
+                                  ><span
+                                    ><span
+                                      class="ui-e-headline-text ui-e-headline-highlighted"
+                                      >profit</span
+                                    ><span class="uicore-svg-wrapper"
+                                      ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 500 150"
+                                        preserveAspectRatio="none"
+                                      >
+                                        <path
+                                          d="M15.2,133.3L15.2,133.3c121.9-7.6,244-9.9,366.1-6.8c34.6,0.9,69.1,2.3,103.7,4"
+                                        /></svg></span></span
+                                  ><span class="whitespace"> </span
+                                ></span>
+                              </h1>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section id="contact">
+                    <div
+                      class="elementor-section elementor-top-section elementor-element elementor-element-f9dd146 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                      data-id="f9dd146"
+                      data-element_type="section"
+                      id="edge"
+                      data-settings='{"background_background":"classic"}'
+                    >
+                      <div
+                        class="elementor-container elementor-column-gap-default"
+                      >
+                        <div
+                          class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b3f858a"
+                          data-id="b3f858a"
+                          data-element_type="column"
+                        >
+                          <div
+                            class="elementor-widget-wrap elementor-element-populated"
+                          >
+                            <div
+                              class="elementor-element elementor-element-f0c6690 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-heading"
+                              data-id="f0c6690"
+                              data-element_type="widget"
+                              data-widget_type="heading.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <h2
+                                  class="elementor-heading-title elementor-size-default"
+                                >
+                                  Contact
+                                </h2>
+                              </div>
+                            </div>
+                            <div
+                              class="elementor-element elementor-element-93c177d elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor"
+                              data-id="93c177d"
+                              data-element_type="widget"
+                              data-widget_type="text-editor.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <h3>Address</h3>
+                                <p>
+                                  ABCDVERSE DIGITAL PRIVATE LIMITED <br />S.N.
+                                  57 P.N.10, LINK ROAD, KONDHANA NAGARI,<br />
+                                  KEDGAON, AHMEDNAGAR – 414001
+                                </p>
+                                <p>
+                                  CIN : U63999PN2023PTC220234 <br />
+                                  PAN : AAYCA6370Q
+                                </p>
+                                <p>+91 8799 989125</p>
+                              </div>
+                              <div class="elementor-widget-container">
+                                <h3>Email</h3>
+                                <p>contact@abcdverse.in</p>
+                              </div>
+
+                              <div class="elementor-widget-container">
+                                <h3>Website</h3>
+                                <p>
+                                  <a
+                                    href="https://www.abcdverse.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    http://abcdverse.in
+                                  </a>
+                                </p>
+                              </div>
+                            </div>
+
+                            <div
+                              class="elementor-element elementor-element-584e1e7 elementor-view-default elementor-widget elementor-widget-icon"
+                              data-id="584e1e7"
+                              data-element_type="widget"
+                              data-settings='{"ep_floating_effects_show":"yes","ep_floating_effects_translate_toggle":"yes","ep_floating_effects_translate_x":{"unit":"px","size":"","sizes":{"from":0,"to":30}},"ep_floating_effects_translate_y":{"unit":"px","size":"","sizes":{"from":0,"to":0}},"ep_floating_effects_translate_duration":{"unit":"px","size":1000,"sizes":[]},"ep_floating_effects_translate_delay":{"unit":"px","size":"","sizes":[]},"ep_floating_effects_easing":"easeInOutQuad"}'
+                              data-widget_type="icon.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <div class="elementor-icon-wrapper">
+                                  <div class="elementor-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="ti ti-arrow-right"
+                                    ></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="elementor-element elementor-element-ee09e7b elementor-widget__width-auto elementor-absolute elementor-hidden-mobile ep-parallax-effects-yes elementor-invisible elementor-widget elementor-widget-image"
+                              data-id="ee09e7b"
+                              data-element_type="widget"
+                              data-settings='{"_position":"absolute","_animation":"rotateIn","_animation_delay":1200,"ep_parallax_effects_show":"yes","ep_parallax_effects_rotate":"yes","ep_parallax_effects_rotate_start":{"unit":"px","size":-180,"sizes":[]},"ep_parallax_effects_rotate_end":{"unit":"px","size":180,"sizes":[]},"ep_parallax_effects_scale_start":{"unit":"px","size":1,"sizes":[]},"ep_parallax_effects_scale_end":{"unit":"px","size":1,"sizes":[]},"ep_parallax_effects_hue_value":{"unit":"px","size":"","sizes":[]},"ep_parallax_effects_sepia_value":{"unit":"px","size":1,"sizes":[]},"ep_parallax_effects_easing_value":{"unit":"px","size":1,"sizes":[]},"ep_parallax_effects_target":"self"}'
+                              data-widget_type="image.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="320"
+                                  height="314"
+                                  src="assets/images/Company-Edge-Elipse.webp"
+                                  class="attachment-full size-full wp-image-22"
+                                  alt=""
+                                  srcset="
+                                    assets/images/Company-Edge-Elipse.webp         320w,
+                                    assets/images/Company-Edge-Elipse-300x294.webp 300w
+                                  "
+                                  sizes="(max-width: 320px) 100vw, 320px"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5690208 elementor-invisible"
+                          data-id="5690208"
+                          data-element_type="column"
+                          data-settings='{"background_background":"gradient","animation":"fadeInUp","animation_delay":100}'
+                        >
+                          <div
+                            class="elementor-widget-wrap elementor-element-populated"
+                          >
+                            <div class="elementor-background-overlay"></div>
+                            <div
+                              class="elementor-element elementor-element-9443be0 elementor-widget__width-auto elementor-absolute elementor-hidden-mobile elementor-widget elementor-widget-image"
+                              data-id="9443be0"
+                              data-element_type="widget"
+                              data-settings='{"_position":"absolute"}'
+                              data-widget_type="image.default"
+                            >
+                              <div class="elementor-widget-container">
+                                <img
+                                  loading="lazy"
+                                  decoding="async"
+                                  width="568"
+                                  height="568"
+                                  src="assets/images/Company-Edge-BG-image.webp"
+                                  class="attachment-full size-full wp-image-21"
+                                  alt=""
+                                  srcset="
+                                    assets/images/Company-Edge-BG-image.webp         568w,
+                                    assets/images/Company-Edge-BG-image-300x300.webp 300w,
+                                    assets/images/Company-Edge-BG-image-150x150.webp 150w
+                                  "
+                                  sizes="(max-width: 568px) 100vw, 568px"
+                                />
+                              </div>
+                            </div>
+                            <section
+                              class="elementor-section elementor-inner-section elementor-element elementor-element-819236c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
+                              data-id="819236c"
+                              data-element_type="section"
+                              data-settings='{"background_background":"classic","animation":"fadeInUp","animation_delay":500}'
+                            >
+                              <div
+                                class="elementor-container elementor-column-gap-default"
+                              >
+                                <div
+                                  class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ab16405"
+                                  data-id="ab16405"
+                                  data-element_type="column"
+                                >
+                                  <div
+                                    class="elementor-widget-wrap elementor-element-populated"
+                                  >
+                                    <div
+                                      class="elementor-element elementor-element-0d0aaa8 elementor-widget elementor-widget-heading"
+                                      data-id="0d0aaa8"
+                                      data-element_type="widget"
+                                      data-widget_type="heading.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <h3
+                                          class="elementor-heading-title elementor-size-default"
+                                        >
+                                          Don’t hesitate to reach us!
+                                        </h3>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="elementor-element elementor-element-52c33b4 elementor-widget elementor-widget-text-editor"
+                                      data-id="52c33b4"
+                                      data-element_type="widget"
+                                      data-widget_type="text-editor.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <p>
+                                          Together, let&#8217;s create a future
+                                          of limitless possibilities!
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="elementor-element elementor-element-78d06aa elementor-widget elementor-widget-bdt-contact-form"
+                                      data-id="78d06aa"
+                                      data-element_type="widget"
+                                      data-widget_type="bdt-contact-form.default"
+                                    >
+                                      <div class="elementor-widget-container">
+                                        <div
+                                          class="bdt-contact-form bdt-contact-form-skin-default"
+                                        >
+                                          <div
+                                            class="elementor-form-fields-wrapper"
+                                          >
+                                            <div
+                                              class="bdt-contact-form-wrapper"
+                                            >
+                                              <form
+                                                class="bdt-contact-form-form bdt-form-stacked bdt-grid bdt-grid-small without-recaptcha"
+                                                data-bdt-grid=""
+                                                action="#"
+                                                method="post"
+                                              >
+                                                <div
+                                                  class="bdt-field-group elementor-field-required bdt-width-1-1"
+                                                >
+                                                  <div
+                                                    class="bdt-form-controls"
+                                                  >
+                                                    <input
+                                                      type="text"
+                                                      name="name"
+                                                      id="user_name78d06aa"
+                                                      placeholder="Your Name"
+                                                      class="bdt-input bdt-form-large"
+                                                      required="required"
+                                                    />
+                                                  </div>
+                                                </div>
+
+                                                <div
+                                                  class="bdt-field-group elementor-field-required bdt-width-1-1"
+                                                >
+                                                  <div
+                                                    class="bdt-form-controls"
+                                                  >
+                                                    <input
+                                                      type="email"
+                                                      name="email"
+                                                      id="email78d06aa"
+                                                      placeholder="example@email.com"
+                                                      class="bdt-input bdt-form-large"
+                                                      required="required"
+                                                    />
+                                                  </div>
+                                                </div>
+
+                                                <div
+                                                  class="bdt-field-group bdt-width-1-1 elementor-field-required"
+                                                >
+                                                  <div
+                                                    class="bdt-form-controls"
+                                                  >
+                                                    <input
+                                                      type="text"
+                                                      name="subject"
+                                                      id="subject78d06aa"
+                                                      placeholder="Your Message Subject"
+                                                      class="bdt-input bdt-form-large"
+                                                      required="required"
+                                                    />
+                                                  </div>
+                                                </div>
+
+                                                <input
+                                                  type="hidden"
+                                                  class="widget_id"
+                                                  name="widget_id"
+                                                  value="78d06aa"
+                                                />
+                                                <input
+                                                  type="hidden"
+                                                  name="bdt-sf-78d06aa"
+                                                  value="true"
+                                                />
+                                                <input
+                                                  type="hidden"
+                                                  class="page_id"
+                                                  name="page_id"
+                                                  value="67"
+                                                />
+
+                                                <div
+                                                  class="elementor-field-type-submit bdt-field-group bdt-flex bdt-width-1-1"
+                                                >
+                                                  <button
+                                                    type="submit"
+                                                    class="elementor-button bdt-button bdt-button-primary"
+                                                    name="submit"
+                                                  >
+                                                    <span>Send</span>
+                                                  </button>
+                                                </div>
+
+                                                <input
+                                                  name="_wpnonce"
+                                                  value="9743fd8fb5"
+                                                  type="hidden"
+                                                />
+
+                                                <input
+                                                  type="hidden"
+                                                  name="action"
+                                                  value="element_pack_contact_form"
+                                                />
+                                              </form>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </section>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </main>
+            </article>
+          </div>
+          <!-- #primary -->
+        </div>
+        <!-- #content -->
+
+        <footer
+          id="uicore-tb-footer"
+          itemscope="itemscope"
+          itemtype="https://schema.org/WPFooter"
+        >
+          <div
+            data-elementor-type="uicore-tb"
+            data-elementor-id="74"
+            class="elementor elementor-74"
+          >
+            <section
+              class="elementor-section elementor-top-section elementor-element elementor-element-bb7bf1d elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="bb7bf1d"
+              data-element_type="section"
+              data-settings='{"background_background":"classic"}'
+            >
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-01ad683"
+                  data-id="01ad683"
+                  data-element_type="column"
+                >
+                  <div
+                    class="elementor-widget-wrap elementor-element-populated"
+                  >
+                    <div
+                      class="elementor-element elementor-element-c28a70f elementor-widget elementor-widget-image"
+                      data-id="c28a70f"
+                      data-element_type="widget"
+                      data-widget_type="image.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <img
+                          width="200"
+                          height="73"
+                          src="./assets/images/logo1.png"
+                          class="attachment-full size-full wp-image-104"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-5f30ab3 elementor-widget elementor-widget-text-editor"
+                      data-id="5f30ab3"
+                      data-element_type="widget"
+                      data-widget_type="text-editor.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <p>
+                          Empowering Leaders to Innovate and Excel in a Dynamic
+                          World
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-ff9466c"
+                  data-id="ff9466c"
+                  data-element_type="column"
+                >
+                  <div
+                    class="elementor-widget-wrap elementor-element-populated"
+                  >
+                    <div
+                      class="elementor-element elementor-element-f3d4d4a elementor-widget elementor-widget-heading"
+                      data-id="f3d4d4a"
+                      data-element_type="widget"
+                      data-widget_type="heading.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <h4
+                          class="elementor-heading-title elementor-size-default"
+                        >
+                          Company
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-c3d20b9 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                      data-id="c3d20b9"
+                      data-element_type="widget"
+                      data-widget_type="icon-list.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <link
+                          rel="stylesheet"
+                          href="assets/css/widget-icon-list.min.css"
+                        />
+                        <ul class="elementor-icon-list-items">
+                          <li class="elementor-icon-list-item">
+                            <a href="#">
+                              <span class="elementor-icon-list-text"
+                                >About Us</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="#">
+                              <span class="elementor-icon-list-text"
+                                >Services</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="#">
+                              <span class="elementor-icon-list-text"
+                                >Contact</span
+                              >
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-2d87b23"
+                  data-id="2d87b23"
+                  data-element_type="column"
+                >
+                  <div
+                    class="elementor-widget-wrap elementor-element-populated"
+                  >
+                    <div
+                      class="elementor-element elementor-element-5321937 elementor-widget elementor-widget-heading"
+                      data-id="5321937"
+                      data-element_type="widget"
+                      data-widget_type="heading.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <h4
+                          class="elementor-heading-title elementor-size-default"
+                        >
+                          Services
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-e8b4052 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                      data-id="e8b4052"
+                      data-element_type="widget"
+                      data-widget_type="icon-list.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <ul class="elementor-icon-list-items">
+                          <li class="elementor-icon-list-item">
+                            <a href="#">
+                              <span class="elementor-icon-list-text"
+                                >Artificial Intelligence
+                              </span>
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="#">
+                              <span class="elementor-icon-list-text"
+                                >Block Chain
+                              </span>
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="#">
+                              <span class="elementor-icon-list-text"
+                                >Cloud
+                              </span>
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="#">
+                              <span class="elementor-icon-list-text"
+                                >Data Science
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-929cc92"
+                  data-id="929cc92"
+                  data-element_type="column"
+                >
+                  <div
+                    class="elementor-widget-wrap elementor-element-populated"
+                  >
+                    <div
+                      class="elementor-element elementor-element-602f2cc elementor-widget elementor-widget-heading"
+                      data-id="602f2cc"
+                      data-element_type="widget"
+                      data-widget_type="heading.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <h4
+                          class="elementor-heading-title elementor-size-default"
+                        >
+                          Follow Us
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-70085f0 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                      data-id="70085f0"
+                      data-element_type="widget"
+                      data-widget_type="icon-list.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <ul class="elementor-icon-list-items">
+                          <li class="elementor-icon-list-item">
+                            <a href="#">
+                              <span class="elementor-icon-list-text"
+                                >Facebook</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="#">
+                              <span class="elementor-icon-list-text"
+                                >Twitter</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="#">
+                              <span class="elementor-icon-list-text"
+                                >LinkedIn</span
+                              >
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div
+              class="elementor-section elementor-top-section elementor-element elementor-element-f1d658e elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="f1d658e"
+              data-element_type="section"
+              data-settings='{"background_background":"classic"}'
+            >
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ce6cf99"
+                  data-id="ce6cf99"
+                  data-element_type="column"
+                >
+                  <div
+                    class="elementor-widget-wrap elementor-element-populated"
+                  >
+                    <div
+                      class="elementor-element elementor-element-9034635 elementor-widget elementor-widget-text-editor"
+                      data-id="9034635"
+                      data-element_type="widget"
+                      data-widget_type="text-editor.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <p>© 2024 ABCDverse Digital</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- 1.5 uicore_content_end -->
+      </div>
+      <!-- #page -->
+
+      <div
+        id="uicore-back-to-top"
+        class="uicore-back-to-top uicore_hide_mobile"
+      >
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <div
+        class="uicore-navigation-wrapper uicore-navbar elementor-section elementor-section-boxed uicore-mobile-menu-wrapper"
+      >
+        <nav class="uicore elementor-container">
+          <div class="uicore-branding uicore-mobile">
+            <a href="index.html" rel="home">
+              <img
+                class="uicore uicore-logo"
+                src="./assets/images/logo1.png"
+                alt="Koinvent"
+              />
+            </a>
+          </div>
+
+          <div class="uicore-mobile-head-right">
+            <button
+              type="button"
+              class="uicore-toggle uicore-ham"
+              aria-label="mobile-menu"
+              onclick="toggleMenu()"
+            >
+              <span class="bars">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </span>
+            </button>
+          </div>
+        </nav>
+
+        <div class="uicore-navigation-content" id="mobileMenu">
+          <div class="uicore-menu-container uicore-nav">
+            <ul class="uicore-menu">
+              <li class="menu-item">
+                <a href="#about-us">
+                  <span class="ui-menu-item-wrapper">About Us</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#services">
+                  <span class="ui-menu-item-wrapper">Services</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#contact">
+                  <span class="ui-menu-item-wrapper">Contact</span>
+                </a>
+              </li>
+              <!-- <li class="onlyformobile menu-item">
+                <a href="#contact">
+                  <span class="ui-menu-item-wrapper">Contact Us</span>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1.6 uicore_body_end -->
+    </div>
+    <!-- 1.7 uicore_after_body_content -->
+    <script>
+      var uicore_frontend = { back: "Back", rtl: "", mobile_br: "1025" };
+      console.log("Using Vault v.2.0.9");
+      console.log("Powered By UiCore Framework v.5.0.9");
+    </script>
+    <link
+      rel="stylesheet"
+      id="ui-e-highlighted-text-css"
+      href="assets/css/elements/highlighted-text2fb2.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ep-font-css"
+      href="assets/css/ep-font6f89.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ep-logo-carousel-css"
+      href="assets/css/ep-logo-carousel6f89.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="tippy-css"
+      href="assets/css/tippy6f89.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ui-e-split-css"
+      href="assets/css/split97de.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ep-advanced-icon-box-css"
+      href="assets/css/ep-advanced-icon-box6f89.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ep-advanced-counter-css"
+      href="assets/css/ep-advanced-counter6f89.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ep-accordion-css"
+      href="assets/css/ep-accordion6f89.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ep-static-carousel-css"
+      href="assets/css/ep-static-carousel6f89.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ep-review-card-carousel-css"
+      href="assets/css/ep-review-card-carousel6f89.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="uicore-blog-st-css"
+      href="assets/css/uicore-blog2148.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="ep-contact-form-css"
+      href="assets/css/ep-contact-form6f89.css"
+      media="all"
+    />
+    <script src="assets/js/uicore-global2148.js" id="uicore_global-js"></script>
+    <script
+      src="assets/js/highlighted-text2fb2.js"
+      id="ui-e-highlighted-text-js"
+    ></script>
+    <script id="bdt-uikit-js-extra">
+      var element_pack_ajax_login_config = {
+        ajaxurl:
+          "https:\/\/dev.yotisindia.in\/koinvent1\/wp-admin\/admin-ajax.php",
+        language: "en",
+        loadingmessage: "Sending user info, please wait...",
+        unknownerror: "Unknown error, make sure access is correct!",
+      };
+      var ElementPackConfig = {
+        ajaxurl:
+          "https:\/\/dev.yotisindia.in\/koinvent1\/wp-admin\/admin-ajax.php",
+        nonce: "1e7dad3081",
+        data_table: {
+          language: {
+            sLengthMenu: "Show _MENU_ Entries",
+            sInfo: "Showing _START_ to _END_ of _TOTAL_ entries",
+            sSearch: "Search :",
+            sZeroRecords: "No matching records found",
+            oPaginate: { sPrevious: "Previous", sNext: "Next" },
+          },
+        },
+        contact_form: {
+          sending_msg: "Sending message please wait...",
+          captcha_nd: "Invisible captcha not defined!",
+          captcha_nr: "Could not get invisible captcha response!",
+        },
+        mailchimp: { subscribing: "Subscribing you please wait..." },
+        search: {
+          more_result: "More Results",
+          search_result: "SEARCH RESULT",
+          not_found: "not found",
+        },
+        elements_data: { sections: [], columns: [], widgets: [] },
+      };
+    </script>
+    <script src="assets/js/bdt-uikit.min673e.js" id="bdt-uikit-js"></script>
+    <script
+      src="assets/js/webpack.runtime.mince8e.js"
+      id="elementor-webpack-runtime-js"
+    ></script>
+    <script
+      src="assets/js/frontend-modules.mince8e.js"
+      id="elementor-frontend-modules-js"
+    ></script>
+    <script src="assets/js/core.minb37e.js" id="jquery-ui-core-js"></script>
+    <script id="elementor-frontend-js-before">
+      var elementorFrontendConfig = {
+        environmentMode: {
+          edit: false,
+          wpPreview: false,
+          isScriptDebug: false,
+        },
+        i18n: {
+          shareOnFacebook: "Share on Facebook",
+          shareOnTwitter: "Share on Twitter",
+          pinIt: "Pin it",
+          download: "Download",
+          downloadImage: "Download image",
+          fullscreen: "Fullscreen",
+          zoom: "Zoom",
+          share: "Share",
+          playVideo: "Play Video",
+          previous: "Previous",
+          next: "Next",
+          close: "Close",
+          a11yCarouselWrapperAriaLabel:
+            "Carousel | Horizontal scrolling: Arrow Left & Right",
+          a11yCarouselPrevSlideMessage: "Previous slide",
+          a11yCarouselNextSlideMessage: "Next slide",
+          a11yCarouselFirstSlideMessage: "This is the first slide",
+          a11yCarouselLastSlideMessage: "This is the last slide",
+          a11yCarouselPaginationBulletMessage: "Go to slide",
+        },
+        is_rtl: false,
+        breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
+        responsive: {
+          breakpoints: {
+            mobile: {
+              label: "Mobile Portrait",
+              value: 767,
+              default_value: 767,
+              direction: "max",
+              is_enabled: true,
+            },
+            mobile_extra: {
+              label: "Mobile Landscape",
+              value: 880,
+              default_value: 880,
+              direction: "max",
+              is_enabled: false,
+            },
+            tablet: {
+              label: "Tablet Portrait",
+              value: 1024,
+              default_value: 1024,
+              direction: "max",
+              is_enabled: true,
+            },
+            tablet_extra: {
+              label: "Tablet Landscape",
+              value: 1200,
+              default_value: 1200,
+              direction: "max",
+              is_enabled: false,
+            },
+            laptop: {
+              label: "Laptop",
+              value: 1366,
+              default_value: 1366,
+              direction: "max",
+              is_enabled: false,
+            },
+            widescreen: {
+              label: "Widescreen",
+              value: 2400,
+              default_value: 2400,
+              direction: "min",
+              is_enabled: false,
+            },
+          },
+        },
+        version: "3.20.3",
+        is_static: false,
+        experimentalFeatures: {
+          e_optimized_assets_loading: true,
+          e_optimized_css_loading: true,
+          e_font_icon_svg: true,
+          additional_custom_breakpoints: true,
+          container: true,
+          e_swiper_latest: true,
+          container_grid: true,
+          block_editor_assets_optimize: true,
+          "ai-layout": true,
+          "landing-pages": true,
+          e_image_loading_optimization: true,
+        },
+        urls: {
+          assets:
+            "https:\/\/dev.yotisindia.in\/koinvent1\/wp-content\/plugins\/elementor\/assets\/",
+        },
+        swiperClass: "swiper",
+        settings: { page: [], editorPreferences: [] },
+        kit: {
+          active_breakpoints: ["viewport_mobile", "viewport_tablet"],
+          global_image_lightbox: "yes",
+          lightbox_enable_counter: "yes",
+          lightbox_enable_fullscreen: "yes",
+          lightbox_enable_zoom: "yes",
+          lightbox_enable_share: "yes",
+          lightbox_title_src: "title",
+          lightbox_description_src: "description",
+        },
+        post: {
+          id: 67,
+          title: "Koinvent%20%E2%80%93%20Business%20Solutions",
+          excerpt: "",
+          featuredImage: false,
+        },
+      };
+    </script>
+    <script
+      src="assets/js/frontend.mince8e.js"
+      id="elementor-frontend-js"
+    ></script>
+    <script
+      src="assets/js/ep-parallax-effects.min6f89.js"
+      id="ep-parallax-effects-js"
+    ></script>
+    <script
+      src="assets/js/ep-background-overlay.min6f89.js"
+      id="ep-background-overlay-js"
+    ></script>
+    <script src="assets/js/popper.min.js" id="popper-js"></script>
+    <script src="assets/js/tippy.all.min.js" id="tippyjs-js"></script>
+    <script
+      src="assets/js/ep-logo-carousel.min6f89.js"
+      id="ep-logo-carousel-js"
+    ></script>
+    <script src="assets/js/split97de.js" id="ui-e-split-js"></script>
+    <script
+      src="assets/js/ep-advanced-icon-box.min6f89.js"
+      id="ep-advanced-icon-box-js"
+    ></script>
+    <script
+      src="assets/js/countUp.min1c12.js"
+      id="advanced-counter-js"
+    ></script>
+    <script
+      src="assets/js/ep-advanced-counter.min6f89.js"
+      id="ep-advanced-counter-js"
+    ></script>
+    <script
+      src="assets/js/ep-accordion.min6f89.js"
+      id="ep-accordion-js"
+    ></script>
+    <script
+      src="assets/js/ep-static-carousel.min6f89.js"
+      id="ep-static-carousel-js"
+    ></script>
+    <script
+      src="assets/js/ep-review-card-carousel.min6f89.js"
+      id="ep-review-card-carousel-js"
+    ></script>
+    <script src="assets/vendor/js/anime.mindeae.js" id="anime-js"></script>
+    <script
+      src="assets/js/ep-floating-effects.min6f89.js"
+      id="ep-floating-effects-js"
+    ></script>
+    <script
+      src="assets/js/ep-contact-form.min6f89.js"
+      id="ep-contact-form-js"
+    ></script>
+    <script
+      src="assets/js/helper.min6f89.js"
+      id="element-pack-helper-js"
+    ></script>
+  </body>
+</html>
